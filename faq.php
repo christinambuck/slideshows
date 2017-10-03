@@ -9,7 +9,7 @@ global $config;
 <meta charset="utf-8">
 <title>FAQ - Slideshows</title>
 	<!-- Mobile viewport -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><!-- Responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><!-- Make it Responsive -->
     
     <link href="css/newStyle.css" rel="stylesheet" type="text/css" />
     <link href="css/faq.css" rel="stylesheet" type="text/css" />

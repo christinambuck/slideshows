@@ -1,4 +1,4 @@
-<?
+<?php
 require_once 'config.inc.php';
 require_once 'phpfunctions.php';
 global $config;
@@ -88,7 +88,7 @@ if ($_POST['userName'] || $_POST['email']){ // If Continue was clicked from the 
 		else $msg = 'Problem sending login credentials.';	
 		?>
         <meta http-equiv="Refresh" content="0; url=http://<? echo $config['http_db_server'].$config['root'].'/login.php?msg='.$msg; ?>">	
-        <?
+        <?php
         exit;
 	} // END if valid user name or email
 } // END if user name or email was entered
@@ -113,8 +113,8 @@ if ($_POST['userName'] || $_POST['email']){ // If Continue was clicked from the 
 
 </head>
 
-<body <? if ($msg) { ?> onLoad="$.prompt('<? echo $msg ?>',{top:'30%'})" <? } ?>>
-	<? require_once 'heading.inc.php'; ?>
+<body <?php if ($msg) { ?> onLoad="$.prompt('<? echo $msg ?>',{top:'30%'})" <?php } ?>>
+	<?php require_once 'heading.inc.php'; ?>
 	<div id="page-wrap">
     	<div id="forgot">
             <h1>Forgot Password?</h1>

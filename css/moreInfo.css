@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bullets {
+	width:75%;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+h4 {
+	color:#fff;
+}
+ul{
+	list-style-position:outside;
+}
+	
+@media screen and (min-width:720px) {	
+	#bullets {
+		width:60%;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+	
+}	
+	

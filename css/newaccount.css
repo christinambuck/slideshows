@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+#newAccount {
+	margin: 0px auto;
+	background-color:#dbccc8;
+	width:300px;
+	text-align:center;
+	height:auto;
+	padding:10px;
+}
+#newAccountFields {
+	text-align:left;
+	margin-left:30px;
+}
+#registerButton {
+	width:90px;
+}
+.note {
+ padding:0 10px;	
+}

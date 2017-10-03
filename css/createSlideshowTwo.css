@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS for createSlideshowTwo.php */
+
+.box h3 {
+	text-decoration:underline;
+	text-align:center;
+	color:#990000;
+}
+.box h4, .box h6 {
+	text-align:center;
+}
+.box {
+	background-color:#dbccc8;
+	position:relative; 
+	float:left; 
+	margin-right:13px;
+	width:275px; 
+	height:280px; 
+	padding:10px; 
+	margin-top:50px; 
+	-moz-border-radius: 15px; 
+	border-radius: 15px; 
+}
+.customButton {	
+	position:absolute;
+	bottom:20px;
+	left:72px;	
+	width:130px;
+}

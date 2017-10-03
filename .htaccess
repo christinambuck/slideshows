@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.slideshows\.co$
+RewriteRule ^/?$ "http\:\/\/slideshows\.co\/" [R=301,L]
+

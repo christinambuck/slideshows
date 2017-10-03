@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+#moreInfo {
+ 	font-size:80px;	
+	float:right;
+}
+.darkLink {
+	text-shadow: 0 2px 2px #edddd1;
+}
+.darkLink:hover {
+	text-shadow: 2px 2px 2px #fff;
+}
+.mainText {
+	text-align:center;
+}
+
+

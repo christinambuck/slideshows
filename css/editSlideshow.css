@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS for editSlideshow.php */
+
+
+#page-wrap {	
+	top:0px;;
+}
+#mainContent {
+	margin: 0px auto;
+	background-color:#dbccc8;
+	width:300px;
+	text-align:center;
+	height:auto;
+	padding:10px;
+}
+#mainContentFields {
+	text-align:left;
+	margin-left:30px;
+}
+#continueEditButton {
+	width:90px;
+}
+
+
+

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS for managephotos.php */
+
+html{
+	background-color: #000;
+}
+#page-wrap{
+	width:100%;
+	padding:0;
+}
+#gallery {
+	list-style-type: none;
+	padding: 0; 
+	height:auto;
+	text-align: center; 
+	}
+	#gallery li { 
+		margin: 6px 2px 2px 2px;  
+		float: left; 
+		width:310px;
+		height:320px; 
+        cursor:pointer; 
+		background-color:#FFFFFF;
+	}
+	#gallery p {
+		line-height:1.0em;
+		text-align: center; 
+	}
+#modal {
+	display:none;
+	margin:10px auto; 
+	width:630px;
+}
+h2 {
+	text-align:center; line-height:25px; color:#FFFFFF
+}
+
+@media only screen and (min-width: 0px) and (max-width: 629px) {	
+	
+	#modal { 
+		width:320px; 
+	}
+}

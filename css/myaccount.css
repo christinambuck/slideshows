@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+#myAccount {
+	margin: 0px auto;
+	background-color:#dbccc8;
+	width:300px;
+	text-align:center;
+	height:auto;
+	padding:10px;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+}
+#updateProfile {
+	width:90px;
+}
+#mySlideshows {
+	height:auto; 
+	width:100%;	
+}
+#mySlideshows img{
+	float:right;
+	margin-right:15px; 
+	cursor:pointer;
+}
+.slideshowTitle {
+	float:left;
+}
+.slideshowBox {
+	border-top:thin solid #a88379;
+	position:relative; 
+	height: 20px;
+	clear:both;
+}
+.cancel { 
+	font-size: .8em;
+}
+#newSL_modal {
+	display:none; 
+	width:318px; 
+	padding:10px 0; 
+	border:1px solid #a88379; 
+	background-color: #F5F5F5;
+	}
+	#newSL_modal p {
+		margin-left:10px;
+	}
+	#newSL_modal a {
+		float:right;margin-right:10px;
+	}
+@media only screen and (min-width: 460px) and (max-width: 490px) {	
+	.buttonImg {
+		width:25px;
+		height:25px;
+	}
+	#mySlideshows img{
+		margin-right:13px;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 459px) {	
+	.buttonImg {
+		width:20px;
+		height:20px;
+	}
+	#mySlideshows img{
+		margin-right:12px;
+	}
+}
+@media only screen and (min-width: 380px) and (max-width: 424px) {	
+	.buttonImg {
+		width:15px;
+		height:15px;
+	}
+	#mySlideshows img{
+		margin-right:10px;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 379px) {	
+	.buttonImg {
+		width:15px;
+		height:15px;
+	}
+	#mySlideshows img{
+		margin-right:9px;
+	}
+	.slideshowTitle {
+    	font-size: 1.0em;
+		width:180px;
+	}
+}

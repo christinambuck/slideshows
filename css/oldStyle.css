@@ -1,0 +1,260 @@
+
+html {
+ 	overflow-y: scroll;
+}
+body {
+	font-size: 12px;
+	line-height:1.3em;
+	font-family: Verdana, Arial, sans-serif;
+}
+input {
+	font-size:12px;
+}
+#page-wrap {
+	width:940px;
+	margin: 0 auto;
+	position:relative;
+	padding-bottom:20px;
+}	
+h1 {
+	font-size: 26px;
+	font-weight: normal;
+}
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	margin:10px;
+}
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+	margin:5px;
+}
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+	display:inline; 
+}
+.positionRelative {
+	position:relative;
+}
+#beforeAfterPage h3{
+	font-size:14px;
+	margin:0px;
+}
+#galleryPage h3{
+	font-size:14px;
+	text-align:center;
+}
+#gallery h5{
+	color:#fff;	
+	}
+
+ul { list-style-position:outside; padding:10px 30px; }
+.bold { font-weight:bold; }
+.small { font-size:10px; }
+.toggle1 { background-color: #0099FF ; } 
+.toggle2 { background-color: #FFFF99; } /* yellow in logo */
+.darkBlue {color:#003399; }
+.lightBlue {color:#81b9fe;}
+
+	
+.cancel { 
+	font-size: 12px;
+	color:#CC0000;
+	}
+.buttonLight {
+	text-align:center;
+	vertical-align:middle;
+}
+.buttonLightHover {
+	font-weight:bold;
+	cursor:pointer;	
+}
+.custombutton {
+	text-align:center;
+	padding: 3px 12px; 
+	font-weight: bold; 
+	font-size: 12px;
+	background-color:#000; 
+	border-right:3px outset #666;	
+	border-bottom:3px outset #666;	
+	border-top:1px inset #666;		
+	border-left:1px inset #666;
+	color: #FFFF99;       			
+	}
+.custombutton h8 {
+    font-size:14px;
+    }
+.custombutton h9 {
+    font-size:12px;
+    }
+.custombuttonhover{	
+	cursor:pointer;	
+	border-top:3px inset  #666;
+	border-left:3px inset  #666;		
+	border-right:1px outset  #666;			
+	border-bottom:1px outset  #666;
+	}
+	
+.custombuttonYellow {
+	text-align:center;
+	padding: 3px 12px; 
+	font-weight: bold; 
+	font-size: 12px;
+	background-color:#FFFF99; 
+	border-right:3px outset #ffff00;	
+	border-bottom:3px outset #ffff00;	
+	border-top:1px inset #ffff00;		
+	border-left:1px inset #ffff00;
+	color: #000;       			
+	}
+.custombuttonYellow h8 {
+    font-size:12px;
+    }
+.custombuttonYellowhover{	
+	cursor:pointer;	
+	border-top:3px inset  #ffff00;
+	border-left:3px inset  #ffff00;		
+	border-right:1px outset  #ffff00;			
+	border-bottom:1px outset  #ffff00;
+	}	
+.pointer {
+	cursor:pointer;	        	
+    }
+.blur { 
+	opacity:0.5;
+	filter:Alpha(opacity=50); /* IE8 and earlier */
+	}
+.center {text-align:center}
+
+.borderRound {-moz-border-radius: 15px; border-radius: 15px;}
+.roundBox {
+	background-color: #81b9fe;
+	padding: 10px;
+  	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+  	border-radius: 10px;
+	-moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.shadow {	
+	-moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.stepBorder { border:1px solid #81b9fe; }
+.h2Color { color: #CC0000; }
+.h3Color { color:#003399; }
+#photoManager p {
+	margin:5px;
+}
+.thumbnail {
+	cursor:pointer; 
+	position:absolute;
+	background-repeat: no-repeat; 
+	background-position: center; 
+	width: 120px; 
+	height: 120px; 	
+}
+.imageUploaderBG { background-color:#81b9fe; }
+
+/* CSS for header.php which gets included in all pages. */
+
+#logoHeading {
+	width:700px; 
+	height:77px; 
+	position:relative;
+}
+#logoHeading h1{
+	position:absolute; 
+	left:230px; 
+	top:20px;
+	font-size:20px;
+	color: #003399;	
+}
+
+#searchHeading {
+	position:absolute;
+	height:auto; 
+	left:20px; 
+	top:80px;
+	}
+	#searchButton {
+		position:absolute;
+		left:180px; 
+		top:0px;
+	}
+	#homeButton {
+		position:absolute;
+		left:290px; 
+		top:0px;
+	}
+	#newAccountButton {
+		position:absolute;
+		left:366px; 
+		top:0px; 
+		width:90px;
+	}
+	#myAccountButton {
+		position:absolute;
+		left:490px; 
+		top:0px; 
+		width:80px;
+	}
+	
+#loginBox {
+	position:absolute; 
+	width:230px; 
+	height:auto; 
+	right: 20px; 
+	top:0px; 
+	padding-left:4px; 
+	padding-right:14px; 
+	padding-bottom:4px; 
+	background-color:#81b9fe;
+	}
+	#loginBox #username {
+		text-align:right; 
+		font-weight:bold; 
+		font-size:12px;
+	}
+	#loginBox #password {
+		text-align:right; 
+		font-weight:bold; 
+		font-size:12px;
+	}
+	#loginBox #remember {
+		text-align:center; 
+		margin-top:-5px; 
+		margin-bottom:5px;
+		}
+		#remember span {
+			font-size:11px; 
+			margin-right:15px;
+		}
+	#loginButton {
+		margin:5px 60px;
+	}
+#logoutBox { 
+	position:absolute; 
+	width:230px; 
+	height:auto; 
+	right: 20px; 
+	top:0px; 
+	padding-left:4px; 
+	padding-right:4px; 
+	padding-bottom:10px; 
+	background-color:#81b9fe;
+	}
+	#logoutBox p {
+		text-align:center; 
+		font-weight:bold; 
+		margin-bottom:35px;
+	}
+	#logoutButton {
+		position:absolute; 
+		right:80px; 
+		bottom:6px;
+	}

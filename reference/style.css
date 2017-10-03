@@ -1,0 +1,26 @@
+html {
+ 	overflow-y: scroll;
+	}
+body {
+	font-size: 12px;
+	line-height:1.3em;
+	font-family: Verdana, Arial, sans-serif 	
+	}
+#page-wrap {
+	width:940px;
+	margin: 0 auto;
+	position:relative;
+	padding-bottom:20px;
+	}	
+h1 {
+	font-size: 26px;
+	font-weight: normal;
+	}
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	margin:10px;
+}
+.bold {
+	font-weight: bold;
+}

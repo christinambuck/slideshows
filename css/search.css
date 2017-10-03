@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+#advancedSearchLink {
+	position:absolute; 
+	left:0px; top:0px;
+	padding:3px;
+}
+.searchResultBox {
+	border-top:thin solid #ca9c6b;
+	position:relative; 
+	height: 96px;
+	width:100%;
+	clear:both;
+}
+.imageLeft {
+	float:left; 
+	margin-right:10px; 
+	cursor:pointer; 
+	height:96px; 
+	width:96px; 
+}
+.leftDiv {
+	float:left; 
+	width:450px;
+	height:96px;
+}
+.rightDiv {
+	float:right; 
+	margin-top:5px;
+	margin-right:10px;
+}
+.viewLinks h6{
+	float:right;
+}
+h6 {
+	line-height:0.8em;	
+}
+.viewSlideshow {
+	margin-right:10px;
+}
+p {
+	line-height: 1.0em;
+}
+.clearIt {
+	clear:both;
+}
+.imageTop {
+	display:none;
+	clear:left;	
+	cursor:pointer; 
+	height:96px; 
+	width:96px; 	
+}
+@media only screen and (min-width: 660px) and (max-width: 705px) {	
+	.leftDiv { 
+		width:400px;
+	}
+}
+@media only screen and (min-width: 590px) and (max-width: 659px) {	
+	.leftDiv { 
+		width:350px;
+	}
+}
+@media only screen and (min-width: 545px) and (max-width: 589px) {	
+	.leftDiv { 
+		width:300px;
+	}
+	.title {
+   	 font-size: 1.2em;
+	}
+	h2 {
+   	 font-size: 1.6em;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 544px) {	
+	
+	.rightDiv {
+		clear:both;
+		float:left;
+		margin-top:5px;
+	}
+	.clearIt {
+		clear:right;		
+		float:left;	
+	}
+	.rightText {		
+		float:left;
+		margin-right:10px;
+	}
+	.viewLinks{
+		float:left;
+	}
+	.viewLinks h6{
+		clear:right;
+		float:left;
+	}
+	.leftDiv { 
+		width:300px;
+	}
+	.title {
+   	 	font-size: 1.1em;
+	}
+	h2 {
+   	 	font-size: 1.2em;
+	}
+	.viewSlideshow {
+		margin-left:10px;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 424px) {	
+	
+	
+	h2 {
+   	 	font-size: 1.2em;
+	}	
+	.leftDiv {
+		clear:left;
+		margin: 0 0; 
+		width:300px;
+		height:auto;
+		}
+		.title {
+			font-size: 1.1em;
+		}
+		.description {
+			/*width: 280px;
+			white-space: nowrap;
+			overflow:hidden; 
+			text-overflow:ellipsis;">*/
+		}
+		.imageLeft {
+			clear:left;
+			display:none;
+		}	
+		.imageTop {
+			display:block;
+		}
+		
+	.rightDiv {
+		width:300px;
+		height:auto;
+		margin: 3px 0 0 0; 
+		clear:right;
+		float:none;
+	}
+	.viewLinks{
+	}
+	.viewLinks h6{
+		float:left;
+	}
+	.viewGallery {
+		margin-right:10px;
+	}
+	.clearIt {
+	}
+	.rightText {		
+		float:left;
+		margin-right:10px;
+	}
+	h6 {
+   	 	font-size: 1.0em;
+	}
+}

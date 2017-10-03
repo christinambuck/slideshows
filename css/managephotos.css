@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS for managephotos.php */
+
+
+#page-wrap{
+	padding:0px 0px 20px 0px;
+	top:0px;
+}
+.customButton {	
+	padding: 1px 5px; 
+	font-size:0.8em;
+	line-height:1.8em;
+	width:90px;
+}
+.imageUploaderBG { 
+	background-color:#dbccc8;
+	border:1px solid #dbccc8;  
+	}
+.photoManagerBox {
+	height:auto; 
+	width:300px;
+	border:1px solid #a88379; 
+	
+    background-color: #F5F5F5;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    min-height: 103px;
+    padding: 5px;
+	}
+.photoManagerInfoBox {	
+	margin: 0px auto;
+	height:auto; 
+	width:100%;
+	}
+	.photoManagerBox p{
+		font-size:0.867em;
+		line-height:0.75em;
+	}
+	.photoManagerBox input{
+		font-size:0.9em;
+		line-height:0.60em;
+	}
+	.filename {
+		text-align:center; 
+		font-weight:bold;
+	}
+	.title {
+		padding-left: 41px;
+		line-height:0.60em;
+	}
+	.titleInput{
+		width:200px;		
+	}
+	.descriptionInput {
+		width:200px;
+	}
+	.photoButtonBox {	
+		margin: 0px auto;
+		height:20px; 
+		width:240px;
+		padding-top:0px; 		
+		}
+		.deletePhoto {
+			margin-right:40px;
+			float:left;
+		}
+		.savePhotoInfo { 
+			float:left; 
+		}
+#photosToSort {
+		width:100%;
+		overflow:hidden;
+	}
+	#instructions {
+		width:100%;
+		}
+		#instructions h4 {
+			text-align:center; 
+			font-weight:bold; 
+			padding:5px; 
+			width:auto;
+		}
+		#instructions p {
+			text-align:center; 
+			font-size:.733em
+		}
+		#updateOrder, #updateOrderAjax {
+			clear:both; 	
+			margin: 10px auto;
+		}
+#sortable { 
+	list-style-type: none; 
+	margin-top: 0px; 
+	margin-left:39px; 
+	padding: 0; 
+	width: 100%; 
+	height:auto; 
+	overflow:auto; 
+	}
+	#sortable li { 
+		margin: 3px 3px 3px 0;  
+		float: left; 
+		width: 120px; 
+		height: 120px; 
+		font-size: 4em; 
+		text-align: center; 
+	}
+@media only screen and (min-width: 380px) and (max-width: 490px) {	
+	.descriptionInput {
+	}
+}
+@media only screen and (min-width: 345px) and (max-width: 379px) {	
+	.descriptionInput {
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 344px) {	
+	.descriptionInput {
+	}
+}
+@media only screen and (min-width: 321px) and (max-width: 426px) {	
+	.title {
+		padding-left: 35px;
+	}
+
+}
+@media only screen and (min-width: 0px) and (max-width: 320px) {	
+	.title {
+		padding-left: 30px;
+	}
+
+}

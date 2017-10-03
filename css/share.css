@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page-wrap {	
+	top:0px;;
+}
+#mainContent {
+	margin: 0px auto;
+	background-color:#dbccc8;
+	width:300px;
+	text-align:center;
+	height:auto;
+	padding:10px;
+}
+#mainContentFields {
+	text-align:center;
+}
+#mainContentFields h3{
+	text-align:center;
+	margin-bottom:15px;
+}
+.shareColor {
+	color: #CC0000;
+}

@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS for managephotos.php */
+
+
+
+#page-wrap {	
+	top:0px;
+	width:100%;
+	padding-left:0px;
+}
+#spinner {
+	display:none; 
+	position: absolute; 
+	top: 30%; 
+	left: 45%; 
+	z-index:999; 
+	width: 48px; 
+	height: 48px;
+}
+.imageUploaderBG { 
+	background-color:#dbccc8; 
+	}
+.customButton {
+	width:7.0em;
+}
+#continueUploadButton {
+	width:150px;
+	float:right;
+}
+
+#continueUploadButton a{	 
+	text-decoration:none; 
+	color: #fff; 
+}
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}
+#divTop {
+	 width:100%; 
+	 height:auto;
+	}
+	#divTop h3 {
+		text-align:center; 
+		font-weight:bold;
+		padding:5px 0px; 
+		margin-bottom:20px;
+	}
+	#uploadBox {
+		width:629px; 
+		height:auto; 
+		margin: 0px auto;
+	}
+	.fileUploadFields {
+		margin:0px 0px; 
+		margin-bottom:5px;
+		width:250px;
+		font-size: 1.0em;
+		line-height: 1.667em;
+	}
+	#uploadTips {
+		clear:both;
+		margin: 20px auto;
+		width:629px; 
+		padding-left:5px;
+		}
+		#uploadTips span {
+			padding:2px 5px;
+		}
+		#uploadTips ul {
+			list-style-position:inside;			
+			font-size: 0.933em;
+			line-height:1.2em;	
+		}
+		#uploadTips li {
+			margin-top:5px; 
+			margin-right:20px;
+		}
+#divMore {
+	width:100%;   
+	text-align:center;
+	}
+	#divMore h3 {
+		text-align:center; 
+		font-weight:bold;
+	}
+#divBottom {
+	width:600px; 
+	margin:5px auto;
+	}
+	.divBottomBox {
+		margin-bottom:5px; 
+		padding:5px; 
+		border: 0px;
+		clear:both;
+		}
+		.uploadInfoBox {
+			float:left; 
+			margin-left:10px;
+			}
+			.filenameInput {
+				width: 200px;
+				line-height: 1.0em;
+			}
+			.titleInput {
+				width: 200px;
+				line-height: 1.0em;
+			}
+			.descriptionInput {
+				width: 300px;
+				line-height: 1.0em;
+			}
+
+	
+		#uploadSaveButton { 
+			float:right; 
+			width:150px;
+		}
+
+@media only screen and (min-width: 0px) and (max-width: 629px) {
+	#divBottom {
+		width:100%;
+	}
+	#uploadTips {
+		width:100%; 
+		}
+	#uploadBox {
+		width:100%; 
+		}
+}
+@media only screen and (min-width: 530px) and (max-width: 545px) {	
+	.descriptionInput {
+		width:225px;
+	}
+}
+@media only screen and (min-width: 485px) and (max-width: 529px) {	
+	.descriptionInput {
+		width:240px;
+	}
+}
+
+@media only screen and (min-width: 425px) and (max-width: 484px) {	
+	.descriptionInput {
+		width:250px;
+	}
+	.inputLabel {
+		display:none;
+	}
+}
+@media only screen and (min-width: 350px) and (max-width: 424px) {	
+	.filenameInput {
+		width:180px;
+	}	
+	.titleInput {
+		width:180px;
+	}	
+	.descriptionInput {
+		width:180px;
+	}
+	.inputLabel {
+		display:none;
+	}
+	.uploadInfoBox {
+		margin-left:5px;
+	}
+}
+@media only screen and (min-width: 339px) and (max-width: 349px) {	
+	.filenameInput {
+		width:180px;
+	}	
+	.titleInput {
+		width:180px;
+	}	
+	.descriptionInput {
+		width:180px;
+	}
+	.inputLabel {
+		display:none;
+	}	
+	.uploadInfoBox {
+		margin-left:5px;
+	}
+
+}
+@media only screen and (min-width: 0px) and (max-width: 338px) {	
+	.filenameInput {
+		width:160px;
+	}	
+	.titleInput {
+		width:160px;
+	}	
+	.descriptionInput {
+		width:160px;
+	}
+	.inputLabel {
+		display:none;
+	}	
+	.uploadInfoBox {
+		margin-left:5px;
+	}
+
+}

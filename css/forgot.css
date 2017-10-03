@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#forgot {
+	margin: 0px auto;
+	background-color:#dbccc8;
+	width:300px;
+	text-align:center;
+	height:auto;
+	padding:10px;
+}
+#forgotFields {
+	text-align:left;
+	margin-left:30px;
+}
+#forgotButton {
+	width:90px;
+}
+#or {
+	margin-top:-10px;
+	margin-bottom:0px;
+	margin-left: 60px;
+}

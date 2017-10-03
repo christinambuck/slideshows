@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login {
+	margin: 0px auto;
+	background-color:#dbccc8;
+	width:300px;
+	text-align:center;
+	height:auto;
+	padding:10px;
+}
+#loginFields {
+	text-align:left;
+	margin-left:30px;
+}
+#loginButton {
+	width:90px;
+}
